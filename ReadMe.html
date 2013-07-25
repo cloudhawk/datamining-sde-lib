@@ -331,6 +331,8 @@ new ExtractSinglePage().ExtractPage(map);
 <h2>补充说明：</h2>
 <ul>
 <li>如果想了解更多接口，请查看Javadoc文档，根据index.html查询。</li>
+<li>URL的输入需要注意，如果包含非英文字符需要进行URL编码转换。</li>
+<li>由于nekohtml不支持HTML5标准的编码声明方式，所以HTML文件请使用传统HTML声明方式，比如：<code>&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf8&quot;  /&gt;</code></li>
 </ul>
 
 </body>
