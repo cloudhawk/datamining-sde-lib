@@ -65,5 +65,7 @@ ExtractPage()参数说明
     
 ## 补充说明：
 * 如果想了解更多接口，请查看Javadoc文档，根据index.html查询。
+* URL的输入需要注意，如果包含非英文字符需要进行URL编码转换。
+* 由于nekohtml不支持HTML5标准的编码声明方式，所以HTML文件请使用传统HTML声明方式，比如：`<meta http-equiv="content-type" content="text/html;charset=utf8"  />`
 
 
